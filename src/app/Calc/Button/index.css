@@ -1,0 +1,18 @@
+.button {
+  font-size: 25px;
+  line-height: 120px;
+  flex: 1;
+  height: 120px;
+  cursor: pointer;
+  text-align: center;
+  color: #C5FFFD;
+  &:hover {
+    background-color: rgba(255, 255, 255, .05);
+  }
+  &:active {
+    background-color: rgba(255, 255, 255, .1);
+  }
+}
+.zero {
+  flex: 3;
+}

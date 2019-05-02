@@ -1,0 +1,12 @@
+.box {
+  margin-bottom: 15px;
+  padding: 150px 50px;
+  text-align: right;
+  border-bottom: 1px solid #C5FFFD;
+}
+.val {
+  font-size: 45px;
+  line-height: unset;
+  word-break: break-all;
+  color: #C5FFFD;
+}

@@ -1,0 +1,64 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel",
+    "import",
+    "jsx-a11y",
+    "react"
+  ],
+  "rules": {
+    "camelcase": [0],
+    "comma-dangle": [2, {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "consistent-return": [0],
+    "eqeqeq": [0],
+    "global-require": [0],
+    "import/no-dynamic-require": [0],
+    "import/no-extraneous-dependencies": [2, {
+      "devDependencies": true,
+      "optionalDependencies": false,
+      "peerDependencies": false
+    }],
+    "import/no-named-as-default": [0],
+    "import/prefer-default-export": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "max-len": [0],
+    "no-console": [0],
+    "no-param-reassign": [2, {
+      "props": false
+    }],
+    "no-shadow": [0],
+    "no-underscore-dangle": [0],
+    "no-useless-escape": [0],
+    "prefer-destructuring": [2],
+    "prefer-rest-params": [0],
+    "prefer-spread": [0],
+    "react/jsx-filename-extension": [2, {
+      "extensions": [".js"]
+    }],
+    "react/no-multi-comp": [0],
+    "react/prop-types": [0]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
